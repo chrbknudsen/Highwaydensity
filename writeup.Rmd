@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+A recurring discussion in Denmark is the placement of highways. 
+Jutland vs. copenhagen
+How far is it to closest motorvejstilkørsel - or whatever its called in english.
+
+Step 1 must be to get coordinates for all the motorway junctions.
+
+A standard: 
+http://www.vejdirektoratet.dk/DA/vejsektor/samarbejde/nationalt/Standardisering%20af%20vej%20og%20trafikdata/Documents/Standard%20for%20vej-%20og%20trafikdata%20Version%201.1.pdf
+
+Der er noget på https://selfservice.datafordeler.dk/metadatas
+
+
+Openstreetmap
+http://wiki.openstreetmap.org/wiki/Overpass_API#Advanced_usage_examples
+
+Og der er en pakke:
+https://cran.r-project.org/web/packages/OpenStreetMap/OpenStreetMap.pdf
+
+Den her ser ud til at indeholde guld:
+https://journal.r-project.org/archive/2013-1/eugster-schlesinger.pdf
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
